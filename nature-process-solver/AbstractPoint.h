@@ -3,7 +3,7 @@
 class Point1D
 {
 public:
-	Point1D(double i_x);
+	explicit Point1D(double i_x);
 
 	virtual double operator()();
 	virtual double operator()() const;

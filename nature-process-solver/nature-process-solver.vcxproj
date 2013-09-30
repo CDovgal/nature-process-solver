@@ -74,6 +74,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AbstractBound.h" />
+    <ClInclude Include="AbstractFunction.h" />
+    <ClInclude Include="AbstractPoint.h" />
+    <ClInclude Include="AbstractSpace.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
