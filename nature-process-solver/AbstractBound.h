@@ -14,10 +14,10 @@ public:
 		assert(GetMax() > GetMin());
 	}
 
-	Point1D GetMin() const { return m_min; };
-	Point1D GetMax() const { return m_max; };
+	Point1D GetMin() const { return m_min; }
+	Point1D GetMax() const { return m_max; }
 
-	Distance GetSize() const { return m_max() - m_min(); };
+	Distance GetSize() const { return m_max.x() - m_min.x(); }
 
 	virtual ~Bound1D(){}
 
